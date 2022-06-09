@@ -1,4 +1,5 @@
 <resources>
     <string name="app_name">Fake News - Detector</string>
     <string name="tv_action_bar_title">FAKE NEWS</string>
+    <string name="tv_search_icon">Search</string>
 </resources>
