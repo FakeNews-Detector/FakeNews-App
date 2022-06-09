@@ -2,4 +2,7 @@
     <string name="app_name">Fake News - Detector</string>
     <string name="tv_action_bar_title">FAKE NEWS</string>
     <string name="tv_search_icon">Search</string>
+    <string name="tv_judul">Judul</string>
+    <string name="tv_deskripsi">Deskripsi</string>
+    <string name="iv_gambar_berita">Gambar Berita</string>
 </resources>
