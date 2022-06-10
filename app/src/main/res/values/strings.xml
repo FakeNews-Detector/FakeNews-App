@@ -5,4 +5,6 @@
     <string name="tv_judul">Judul</string>
     <string name="tv_deskripsi">Deskripsi</string>
     <string name="iv_gambar_berita">Gambar Berita</string>
+    <string name="tv_kategori_berita">Kategori Berita:</string>
+    <string name="tv_artikel">Artikel</string>
 </resources>

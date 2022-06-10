@@ -1,34 +1,24 @@
 package com.bangkit.capstone.data.api
 
-import android.os.Parcelable
-import com.google.gson.annotations.SerializedName
-import kotlinx.parcelize.Parcelize
+import com.bangkit.capstone.BuildConfig
+import okhttp3.OkHttpClient
+import okhttp3.logging.HttpLoggingInterceptor
+import retrofit2.Retrofit
+import retrofit2.converter.gson.GsonConverterFactory
 
-@Parcelize
-data class ApiService(
-
-	@field:SerializedName("ApiConfig")
-	val apiConfig: List<ApiConfigItem?>? = null
-) : Parcelable
-
-@Parcelize
-data class ApiConfigItem(
-
-	@field:SerializedName("idarticle")
-	val idarticle: Int? = null,
-
-	@field:SerializedName("isiarticle")
-	val isiarticle: String? = null,
-
-	@field:SerializedName("kategori")
-	val kategori: String? = null,
-
-	@field:SerializedName("deskripsi")
-	val deskripsi: String? = null,
-
-	@field:SerializedName("judul")
-	val judul: String? = null,
-
-	@field:SerializedName("gambar")
-	val gambar: String? = null
-) : Parcelable
+object ApiService {
+    val endpoint: ApiEndpoint
+    get() {
+        val interceptor = HttpLoggingInterceptor()
+        interceptor.level = HttpLoggingInterceptor.Level.BODY
+        val client = OkHttpClient.Builder()
+            .addInterceptor( interceptor )
+            .build()
+        val retrofit = Retrofit.Builder()
+            .baseUrl(BuildConfig.BASE_URL)
+            .client( client )
+            .addConverterFactory(GsonConverterFactory.create())
+            .build()
+        return retrofit.create(ApiEndpoint::class.java)
+    }
+}

@@ -24,7 +24,7 @@
             tools:ignore="UselessParent">
 
             <ImageView
-                android:id="@+id/imageView"
+                android:id="@+id/imageViews"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_margin="10dp"
@@ -36,10 +36,11 @@
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
                 android:layout_marginStart="10dp"
-                android:fontFamily="@font/inter_bold"
+                android:fontFamily="@font/inter_regular"
                 android:text="@string/tv_judul"
                 android:textColor="@color/black"
-                android:textSize="14sp" />
+                android:textSize="14sp"
+                android:textStyle="bold" />
 
             <TextView
                 android:id="@+id/tvDescription"
@@ -49,6 +50,7 @@
                 android:layout_marginTop="17dp"
                 android:fontFamily="@font/inter_regular"
                 android:text="@string/tv_deskripsi"
+                android:textColor="@color/black"
                 android:textSize="12sp" />
 
         </LinearLayout>

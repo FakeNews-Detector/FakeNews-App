@@ -16,7 +16,8 @@
         android:theme="@style/Theme.FakeNewsDetector"
         tools:targetApi="31">
         <activity
-            android:name=".DetailActivity"
+            android:name=".ui.DetailActivity"
+            android:parentActivityName=".MainActivity"
             android:exported="false" />
         <activity
             android:name=".MainActivity"
