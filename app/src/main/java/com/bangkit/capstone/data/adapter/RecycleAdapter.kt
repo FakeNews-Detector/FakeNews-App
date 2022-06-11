@@ -12,8 +12,6 @@ import com.bumptech.glide.Glide
 class RecyclerAdapter(private val results: ArrayList<NewsApiJSONItem>, private val listener: OnAdapterListener)
     : RecyclerView.Adapter<RecyclerAdapter.ViewHolder>() {
 
-    private val TAG = "MainAdapter"
-
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): ViewHolder {
         val newsBinding = ItemLayoutBinding.inflate(LayoutInflater.from(parent.context), parent, false)
         return ViewHolder(newsBinding)
@@ -45,5 +43,9 @@ class RecyclerAdapter(private val results: ArrayList<NewsApiJSONItem>, private v
 
     interface OnAdapterListener {
         fun onClick( result: NewsApiJSONItem)
+    }
+
+    companion object {
+        private val TAG = "MainAdapter"
     }
 }

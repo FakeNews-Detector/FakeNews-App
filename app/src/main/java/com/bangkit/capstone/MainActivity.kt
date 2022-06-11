@@ -19,8 +19,6 @@ import retrofit2.Callback
 import retrofit2.Response
 
 class MainActivity : AppCompatActivity() {
-    private val TAG: String = "MainActivity"
-
     private lateinit var mainBinding: ActivityMainBinding
     private lateinit var recyclerAdapter: RecyclerAdapter
 
@@ -89,5 +87,9 @@ class MainActivity : AppCompatActivity() {
     override fun onCreateOptionsMenu(menu: Menu?): Boolean {
         menuInflater.inflate(R.menu.search, menu)
         return super.onCreateOptionsMenu(menu)
+    }
+
+    companion object {
+        private var TAG = "MainActivity"
     }
 }

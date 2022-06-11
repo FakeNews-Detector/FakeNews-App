@@ -7,7 +7,6 @@ import android.os.Bundle
 import android.os.Handler
 import android.os.Looper
 import com.bangkit.capstone.MainActivity
-import com.bangkit.capstone.R
 import com.bangkit.capstone.databinding.ActivitySplashScreenBinding
 
 @SuppressLint("CustomSplashScreen")
