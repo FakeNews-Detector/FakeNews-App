@@ -7,4 +7,9 @@
     <string name="iv_gambar_berita">Gambar Berita</string>
     <string name="tv_kategori_berita">Kategori Berita:</string>
     <string name="tv_artikel">Artikel</string>
+    <string name="ic_menu_utama">Menu Utama</string>
+    <string name="ic_favorit">Favorit</string>
+    <string name="ic_tentang_aplikasi">Tentang Aplikasi</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>

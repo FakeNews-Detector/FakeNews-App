@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/news_host"
+    app:startDestination="@id/homeNewsFragment">
+
+
+    <fragment
+        android:id="@+id/homeNewsFragment2"
+        android:name="com.bangkit.capstone.fragments.HomeNewsFragment"
+        android:label="fragment_home_news"
+        tools:layout="@layout/fragment_home_news" >
+        <action
+            android:id="@+id/action_homeNewsFragment2_to_favoriteNewsFragment2"
+            app:destination="@id/favoriteNewsFragment2" />
+    </fragment>
+    <fragment
+        android:id="@+id/favoriteNewsFragment2"
+        android:name="com.bangkit.capstone.fragments.FavoriteNewsFragment"
+        android:label="fragment_favorite_news"
+        tools:layout="@layout/fragment_favorite_news" >
+        <action
+            android:id="@+id/action_favoriteNewsFragment2_to_aboutNewsFragment2"
+            app:destination="@id/aboutNewsFragment2" />
+    </fragment>
+    <fragment
+        android:id="@+id/aboutNewsFragment2"
+        android:name="com.bangkit.capstone.fragments.AboutNewsFragment"
+        android:label="fragment_about_news"
+        tools:layout="@layout/fragment_about_news" />
+    <fragment
+        android:id="@+id/articleNewsFragment"
+        android:name="com.bangkit.capstone.fragments.ArticleNewsFragment"
+        android:label="fragment_article_news"
+        tools:layout="@layout/fragment_article_news" >
+
+
+        <argument
+            android:name="article"
+            app:argType="com.bangkit.capstone.data.api.NewsApiJSONItem" />
+    </fragment>
+</navigation>
