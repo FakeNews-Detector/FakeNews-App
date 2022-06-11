@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.SplashScreenActivity">
+
+<ImageView
+    android:id="@+id/ivFakeNewsLogo"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:contentDescription="@string/iv_news_image"
+    android:src="@drawable/fake_news_logo" />
+
+<com.airbnb.lottie.LottieAnimationView
+    android:id="@+id/progressBar"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_below="@id/ivFakeNewsLogo"
+    android:layout_centerInParent="true"
+    app:lottie_autoPlay="true"
+    app:lottie_fileName="loading.json"
+    app:lottie_loop="false"/>
+
+</RelativeLayout>

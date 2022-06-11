@@ -9,6 +9,7 @@
         <entry key="app/src/main/res/layout/action_bar_title_layout.xml" value="0.17083333333333334" />
         <entry key="app/src/main/res/layout/activity_detail.xml" value="0.2" />
         <entry key="app/src/main/res/layout/activity_main.xml" value="0.2" />
+        <entry key="app/src/main/res/layout/activity_splash_screen.xml" value="0.1" />
         <entry key="app/src/main/res/layout/fragment_about_news.xml" value="0.15489130434782608" />
         <entry key="app/src/main/res/layout/fragment_home_news.xml" value="0.15489130434782608" />
         <entry key="app/src/main/res/layout/fragment_news.xml" value="0.15489130434782608" />
