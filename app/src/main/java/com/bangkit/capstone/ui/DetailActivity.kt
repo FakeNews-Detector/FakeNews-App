@@ -2,6 +2,7 @@ package com.bangkit.capstone.ui
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.view.Menu
 import com.bangkit.capstone.R
 import com.bangkit.capstone.databinding.ActivityDetailBinding
 import com.bumptech.glide.Glide
@@ -22,5 +23,10 @@ class DetailActivity : AppCompatActivity() {
         Glide.with(this)
             .load(intent.getStringExtra("intent_image"))
             .into(detailBinding.imageView)
+    }
+
+    override fun onCreateOptionsMenu(menu: Menu?): Boolean {
+        menuInflater.inflate(R.menu.share, menu)
+        return super.onCreateOptionsMenu(menu)
     }
 }
