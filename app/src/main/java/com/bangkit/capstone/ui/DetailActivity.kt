@@ -32,15 +32,18 @@ class DetailActivity : AppCompatActivity() {
             .load(intent.getStringExtra("intent_image"))
             .into(detailBinding.imageView)
 
-        sendPredict(title = title as String)
+//        sendPredict(title = NewsApiJSONItem)
+
+        sendPredict()
     }
 
-    private fun sendPredict(title: String) {
-        val predictData = PredictData(title)
+    private fun sendPredict(title: String? = intent.getStringExtra("intent_title")) {
+        val predictData = PredictData(title.toString())
         ApiService.endpoint.sendPredict(predictData)
             .enqueue(object : Callback<PredictResponses> {
                 override fun onFailure(call: Call<PredictResponses>, t: Throwable) {
                     Log.d(PREDICT, "$t")
+                    Log.d(TITLE, "$t")
                 }
 
                 override fun onResponse(
@@ -68,5 +71,6 @@ class DetailActivity : AppCompatActivity() {
 
     companion object {
         private var PREDICT = "predict"
+        private var TITLE = "title"
     }
 }

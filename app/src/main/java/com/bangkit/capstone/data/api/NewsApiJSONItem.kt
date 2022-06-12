@@ -9,7 +9,6 @@ class NewsApiJSON : ArrayList<NewsApiJSONItem>()
 data class NewsApiJSONItem(
     val deskripsi: String,
     val gambar: String,
-    val idarticle: Int,
     val isiarticle: String,
     val judul: String,
     val kategori: String

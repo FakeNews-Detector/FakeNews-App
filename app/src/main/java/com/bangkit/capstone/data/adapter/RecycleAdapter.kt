@@ -46,6 +46,6 @@ class RecyclerAdapter(private val results: ArrayList<NewsApiJSONItem>, private v
     }
 
     companion object {
-        private val TAG = "MainAdapter"
+        private const val TAG = "MainAdapter"
     }
 }
