@@ -24,3 +24,27 @@ An application to validate hoax news or valid
 - [LottieFiles](https://lottiefiles.com/) - LottieFiles provides all the tools that you need to create, edit, test and display Lottie animations.
 
 ## Mad Scoreboard
+
+<p align="center">
+    <img src="app/src/main/assets/summary.png"
+        style="margin-right: 20px;"
+    />
+</p>
+
+<p align="center">
+    <img src="app/src/main/assets/kotlin.png"
+        style="margin-right: 20px;"
+    />
+</p>
+
+<p align="center">
+    <img src="app/src/main/assets/jetpack.png"
+        style="margin-right: 20px;"
+    />
+</p>
+
+<p align="center">
+    <img src="app/src/main/assets/studio.png"
+        style="margin-right: 20px;"
+    />
+</p>
