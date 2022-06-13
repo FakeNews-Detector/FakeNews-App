@@ -56,7 +56,7 @@ An application to validate hoax news or valid
 ## License
 ```
 
-   Copyright © 2021 Fadhlan Hadaina
+   Copyright © 2022 C22-PS051
 
    Licensed under the Apache License, Version 2.0 (the "License");
    you may not use this file except in compliance with the License.
