@@ -17,10 +17,10 @@ An application to validate hoax news or valid
 
 - [Kotlin](https://kotlinlang.org/) - First class and official programming language for Android development.
 - [Retrofit](https://square.github.io/retrofit/) - A type-safe HTTP client for Android and Java.
-- [OkHttp](http://square.github.io/okhttp/) An HTTP & HTTP/2 client for Android and Java applications.
-- [Gson](https://github.com/google/gson) A Java serialization/deserialization library to convert Java Objects into JSON and back
-- [Glide](https://github.com/bumptech/glide) An image loading and caching library for Android focused on smooth scrolling
-- [Material Design](https://material.io/develop/android/docs/getting-started) Material is a design system created by Google to help teams build high-quality digital experiences for Android, iOS, Flutter, and the web.
-- [LottieFiles](https://lottiefiles.com/) LottieFiles provides all the tools that you need to create, edit, test and display Lottie animations.
+- [OkHttp](http://square.github.io/okhttp/) - An HTTP & HTTP/2 client for Android and Java applications.
+- [Gson](https://github.com/google/gson) - A Java serialization/deserialization library to convert Java Objects into JSON and back
+- [Glide](https://github.com/bumptech/glide) - An image loading and caching library for Android focused on smooth scrolling
+- [Material Design](https://material.io/develop/android/docs/getting-started) - Material is a design system created by Google to help teams build high-quality digital experiences for Android, iOS, Flutter, and the web.
+- [LottieFiles](https://lottiefiles.com/) - LottieFiles provides all the tools that you need to create, edit, test and display Lottie animations.
 
 ## Mad Scoreboard
