@@ -1,8 +1,8 @@
 # FakeNews-App
 [![Platform](https://img.shields.io/badge/platform-Android-green.svg)](http://developer.android.com/index.html) [![Kotlin](https://img.shields.io/badge/kotlin-1.7.0-orange.svg)](http://kotlinlang.org) [![Gradle](https://img.shields.io/badge/gradle-7.2.0-%2366DCB8.svg)](https://developer.android.com/studio/releases/gradle-plugin)
 
-# WARNING
-**This application is not final because it is still in the development stage and still requires several supporting implementations to make the application run perfectly.**
+:exclamation: **WARNING**
+> ***This application is not final because it is still in the development stage and still requires several supporting implementations to make the application run perfectly.***
 
 # Table Of Contents
 - [Introduction](#introduction)
@@ -20,16 +20,16 @@ This application introduction is an innovation to help someone to avoid HOAX new
 > In the main menu feature there is a news display about any news that is indicated as a HOAX and if the news is pressed it will display news details and can check by pressing the news scanner button to indicate whether the news is HOAX news or not.
 
 - Favorite
-> In this application, there is a favorite feature to see what news has been favorited by the user. so that our group provides navigation favorites for additional features for FakeNews App users
+> In this application, there is a favorite feature that has a role in saving the user's favorite news that has been read by the user in the FakeNews App.
 
 - About App
 > The last feature is about the application, this feature provides information about the application, starting from the version of the application then a feature is available to contact us, there is also information about questions and answers about HOAX news, & finally an explanation about the FakeNews app, to provide inside information to users about this application.
 
 ## Demo
 
-|Splash|News List (Main Menu)|Valid|Hoax|
-|--|--|--|--|
-|![](app/src/main/assets/splash.png?raw=true)|![](app/src/main/assets/news.png?raw=true)|![](app/src/main/assets/valid.png?raw=true)|![](app/src/main/assets/hoax.png?raw=true)
+|Splash|News List (Main Menu)|Valid|Hoax|Favorite|About|
+|--|--|--|--|--|--|
+|![](app/src/main/assets/splash.png?raw=true)|![](app/src/main/assets/news.png?raw=true)|![](app/src/main/assets/valid.png?raw=true)|![](app/src/main/assets/hoax.png?raw=true)|![](app/src/main/assets/favorite.png?raw=true)|![](app/src/main/assets/about.png?raw=true)
 
 ## Tech Stack
 
