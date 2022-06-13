@@ -1,6 +1,9 @@
 # FakeNews-App
 [![Platform](https://img.shields.io/badge/platform-Android-green.svg)](http://developer.android.com/index.html) [![Kotlin](https://img.shields.io/badge/kotlin-1.7.0-orange.svg)](http://kotlinlang.org) [![Gradle](https://img.shields.io/badge/gradle-7.2.0-%2366DCB8.svg)](https://developer.android.com/studio/releases/gradle-plugin)
 
+# WARNING
+**This application is not final because it is still in the development stage and still requires several supporting implementations to make the application run perfectly.**
+
 # Table Of Contents
 - [Introduction](#introduction)
 - [Demo](#demo)
@@ -13,10 +16,13 @@ This application introduction is an innovation to help someone to avoid HOAX new
 
 **There are three buttons as follows:**
 
+- Main Menu
+> In the main menu feature there is a news display about any news that is indicated as a HOAX and if the news is pressed it will display news details and can check by pressing the news scanner button to indicate whether the news is HOAX news or not.
+
 - Favorite
 > In this application, there is a favorite feature to see what news has been favorited by the user. so that our group provides navigation favorites for additional features for FakeNews App users
 
-- About app
+- About App
 > The last feature is about the application, this feature provides information about the application, starting from the version of the application then a feature is available to contact us, there is also information about questions and answers about HOAX news, & finally an explanation about the FakeNews app, to provide inside information to users about this application.
 
 ## Demo
