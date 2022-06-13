@@ -9,7 +9,15 @@
 
 ## Introduction
 
-An application to validate hoax news or valid
+This application introduction is an innovation to help someone to avoid HOAX news by providing a news filter feature by validating the news whether it is indicated as a hoax or not.
+
+**There are three buttons as follows:**
+
+- Favorite
+> In this application, there is a favorite feature to see what news has been favorited by the user. so that our group provides navigation favorites for additional features for FakeNews App users
+
+- About app
+> The last feature is about the application, this feature provides information about the application, starting from the version of the application then a feature is available to contact us, there is also information about questions and answers about HOAX news, & finally an explanation about the FakeNews app, to provide inside information to users about this application.
 
 ## Demo
 
