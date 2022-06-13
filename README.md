@@ -13,6 +13,10 @@ An application to validate hoax news or valid
 
 ## Demo
 
+|Splash|News List (Main Menu)|Valid|Hoax|
+|--|--|--|--|
+|![](app/src/main/assets/splash.png?raw=true)|![](app/src/main/assets/news.png?raw=true)|![](app/src/main/assets/valid.png?raw=true)|![](app/src/main/assets/hoax.png?raw=true)
+
 ## Tech Stack
 
 - [Kotlin](https://kotlinlang.org/) - First class and official programming language for Android development.
